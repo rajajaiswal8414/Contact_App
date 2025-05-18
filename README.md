@@ -50,6 +50,10 @@ npm install
 npm run dev
 ```
 
+## Deployment
+
+The application is deployed on Vercel and can be accessed at: [https://contact-ngze3zcsa-raja-jaiswals-projects.vercel.app/](https://contact-ngze3zcsa-raja-jaiswals-projects.vercel.app/)
+
 ## Project Structure
 
 ```
