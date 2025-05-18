@@ -1,12 +1,80 @@
-# React + Vite
+# Contact App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern contact management application built with React and Firebase, allowing users to manage their contacts efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📱 Create, read, update, and delete contacts
+- 🔍 Search and filter contacts
+- 🎨 Modern and responsive UI
+- 🔐 Firebase Authentication
+- 💾 Real-time data synchronization with Firebase
+- 📱 Mobile-friendly design
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Firebase (Authentication & Firestore)
+- Tailwind CSS
+- React Icons
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- Firebase account
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/rajajaiswal8414/Contact_App.git
+```
+
+2. Install dependencies
+
+```bash
+cd Contact_App
+npm install
+```
+
+3. Create a Firebase project and add your configuration in `src/config/firebase.js`
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```
+src/
+├── components/         # React components
+│   ├── AddAndUpdateContact.jsx
+│   ├── ContactCard.jsx
+│   ├── Model.jsx
+│   ├── Navbar.jsx
+│   └── NotFoundContact.jsx
+├── config/            # Configuration files
+│   └── firebase.js
+├── hooks/             # Custom React hooks
+│   └── UseDisclosure.js
+└── assets/           # Static assets
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Raj Jaiswal - [GitHub](https://github.com/rajajaiswal8414)
