@@ -52,7 +52,7 @@ npm run dev
 
 ## Deployment
 
-The application is deployed on Vercel and can be accessed at: [https://contact-ngze3zcsa-raja-jaiswals-projects.vercel.app/](https://contact-ngze3zcsa-raja-jaiswals-projects.vercel.app/)
+The application is deployed on Vercel and can be accessed at: [https://contact-ngze3zcsa-raja-jaiswals-projects.vercel.app/]
 
 ## Project Structure
 
@@ -81,4 +81,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Raj Jaiswal - [GitHub](https://github.com/rajajaiswal8414)
+Raja Jaiswal - [GitHub](https://github.com/rajajaiswal8414)
